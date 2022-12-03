@@ -1,0 +1,38 @@
+.App {
+    font-family: sans-serif;
+};
+
+.App > h1 {
+    font-size: 22px;
+    background: #222;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+};
+
+.App > h1 > img {
+    width: 20px;
+};
+
+.App > div > h2 {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+};
+
+.book {
+    display: flex;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border: 1px solid #ccc;
+    transition: all 0.5s;
+};
+
+.book img {
+    width: 130px;
+    margin: 0 10px 0 0;
+};
